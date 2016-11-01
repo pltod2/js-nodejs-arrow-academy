@@ -1,0 +1,30 @@
+{
+  "name": "lecture1",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.0"    
+  },
+  "scripts": {
+    "identifiers-states": "DEBUG=* node lecture1-core-concepts/01-create/identifiers-states.js",
+    "identifiers-creation": "DEBUG=* node lecture1-core-concepts/01-create/identifiers-creation.js",
+    "identifiers-creation-order": "DEBUG=* node lecture1-core-concepts/01-create/identifiers-creation-order.js",
+    "identifiers-language-defined": "DEBUG=* node lecture1-core-concepts/01-create/identifiers-language-defined.js",
+    "primitives": "DEBUG=* node lecture1-core-concepts/01-create/data-types-primitive.js",
+    "references": "DEBUG=* node lecture1-core-concepts/01-create/data-types-reference.js",
+    "typeof-instanceof": "DEBUG=* node lecture1-core-concepts/01-create/typeof-vs-instanceof.js",
+    "autoboxing": "DEBUG=* node lecture1-core-concepts/01-create/autoboxing.js",
+    "function-constructor": "DEBUG=* node lecture1-core-concepts/02-read/function-constructor.js",
+    "scope-chain": "DEBUG=* node lecture1-core-concepts/02-read/scope-chain.js",
+    "closures": "DEBUG=* node lecture1-core-concepts/02-read/closure.js",    
+    "binding-rebinding-mutation": "DEBUG=* node lecture1-core-concepts/03-update/binding-rebinding-mutation.js",
+    "data-deletion": "DEBUG=* node lecture1-core-concepts/04-delete/data-deletion.js"
+  },
+  "author": "ptodorov",
+  "license": "ISC"
+}
