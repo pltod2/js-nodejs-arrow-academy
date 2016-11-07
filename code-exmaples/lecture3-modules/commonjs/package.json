@@ -1,0 +1,19 @@
+{
+  "name": "modules-test-suite",
+  "version": "0.0.1",
+  "description": "show node modules specifics via test suite",
+  "devDependencies": {
+    "colortape": "0.0.4",
+    "tape": "^3.0.3"
+  },
+  "scripts": {
+    "test": "node . | colortape"
+  },
+  "keywords": [
+    "node modules"
+  ],
+  "author": {
+    "name": "pltod"
+  },
+  "license": "MIT"
+}
