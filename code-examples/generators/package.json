@@ -1,0 +1,15 @@
+{
+  "name": "generators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generators.js",
+  "scripts": {
+    "test": "DEBUG=* node generators.js"
+  },
+  "author": "pltod",
+  "license": "ISC",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
+}
