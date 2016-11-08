@@ -15,6 +15,14 @@
 
 > Explains what is prototype chain and how to write OOP code. Compare OOP and functional programming.
 
+Lecture Number | Topics Covered
+-------------- | ----------------
+Lecture 1      | Core programming concepts. Primitive and reference types. Function expressions and function declarations. Scope chain resolution. Immutability.
+Lecture 2      | Prototype Chain. Functional Programming vs. Object Oriented Programming.
+Lecture 3      | Module Standards - IIFE, Module Pattern, AMD, CommonJS, UMD, ES6 Modules
+Lecture 4      | ES6 Programming Constructs, Typescript
+Lecture 5      | Development workflow for front end applications using node ecosystem - package managers, script loaders, scafolding tools
+
 # Folders Explanation
 
 * presentations-slides
