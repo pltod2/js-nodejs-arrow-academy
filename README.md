@@ -7,14 +7,6 @@
 
 # Training Outline
 
-* Lecture 1. Core Concepts
-
-> Explains what is scope chain and how to work with functions
-
-* Lecture 2. Prototype Chain
-
-> Explains what is prototype chain and how to write OOP code. Compare OOP and functional programming.
-
 Lecture Number | Topics Covered
 -------------- | ----------------
 Lecture 1      | Core programming concepts. Primitive and reference types. Function expressions and function declarations. Scope chain resolution. Immutability.
