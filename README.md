@@ -25,23 +25,3 @@ code-examples                    | contains examples from the lectures
 homework-assignments             | information about homeworks that must be made after each lecture
 resources                        | files with interesting links
 
-# Final Project
-
-As an outcome of this Academy we are going to make a final end to end project. Here are details about this:
-
-* There will be one main project maintained by the Lectors here https://github.com/pltod2/braggers
-
-* Each person will have its own repo for the final project
-
-* Each person could evolve the project on its own
-
-* If particular feature is considered good, a PR to the lectors' project could be made
-
-* Please stick to the proposed technology set
-
-> MongoDB / Express / React / Webpack ecosystem
-
-* Strive for writing reusable modules that could be published in npm
-
-* Each project could be deployed in the cloud for showcase purposes with tools like https://zeit.co/now
-
