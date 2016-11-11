@@ -1,10 +1,12 @@
+**PROJECT EXIBITION: Friday, 2 December 2016**
+
 # Introduction 
 
-* As an outcome of this Academy we are going to make a final fullstack JavaScript project. 
+As an outcome of this Academy we are going to make a final fullstack JavaScript project. 
 
-* We want to be creative and to make "new generation" social platform for people that participate in IT training academies.
+We want to be creative and to make "new generation" social platform for people that participate in IT training academies.
 
-* Our platform should combine in very creative way three major things:
+Our platform should combine in very creative way three major things:
 
 > 1. Users
 
@@ -12,30 +14,30 @@
 
 > 3. Blogging like functionality
 
-* Our platform must consume a lot of third party APIs. The more integrations the better. 
+Our platform must consume a lot of third party APIs. The more integrations the better. 
 
 **HINT: Think on abstract level so you could reuse your integration approach.**
 
-> Slack and Github in order to build the user profiles. 
+Slack and Github in order to build the user profiles. 
 
-We assume that Slack is defacto standard for trainee communication and Github is defacto standard for where we put our code. So the trainees already have profiles there and we would like to leverage them in order to build profiles for our platform avoding having to deal with registration forms.
+> We assume that Slack is defacto standard for trainee communication and Github is defacto standard for where we put our code. So the trainees already have profiles there and we would like to leverage them in order to build profiles for our platform avoding having to deal with registration forms.
 
-> Ghost (https://ghost.org/) / Medium (https://medium.com/) / Wordpress (https://wordpress.com/)
+Ghost (https://ghost.org/) / Medium (https://medium.com/) / Wordpress (https://wordpress.com/)
 
-For blogging functionality we could integrate with services like these so we could get posts from there and put them into our platform
+> For blogging functionality we could integrate with services like these so we could get posts from there and put them into our platform
 
-> Discourse (http://www.discourse.org/) / NodeBB (https://nodebb.org/) / Flarum (http://flarum.org/) / Hacker News (https://news.ycombinator.com/)
+Discourse (http://www.discourse.org/) / NodeBB (https://nodebb.org/) / Flarum (http://flarum.org/) / Hacker News (https://news.ycombinator.com/)
 
-For forum functionality we could integrate with similar services to get data from there
+> For forum functionality we could integrate with similar services to get data from there
 
 
 # Teams 
 
-* We have three teams each of them is led by a Lector
+We have three teams each of them is led by a Lector
 
-* Each team has a project repository
+Each team has a project repository
 
-* Each team member will fork the repo and submit PR request for particular feature 
+Each team member will fork the repo and submit PR request for particular feature 
 
 > **HINT: make sure you do your request in a branch**
 
@@ -48,21 +50,21 @@ Here is the minimal set of use cases that must be covered:
 
 We have here User Profile / User Feed (or Wall if you want)
 
-* Login 
+* UC1: Login 
 
-* Generate user profiles taking data from Slack and Github and mix it into single profile
+* UC2: Generate user profiles taking data from Slack and Github and mix it into single profile
 
-* Browse through users 
+* UC3: Browse through users 
 
-* Select user to see its details like email / github repos / user feed etc.
+* UC4: Select user to see its details like email / github repos / user feed etc.
 
-## Bloging 
+## Blogging 
 
 We have here Blog Article / Comments / Likes
 
-* User should be able to publish blog article into its feed
+* UC5: User should be able to publish blog article into its feed
 
-* User must be able to like and comment on another blog article
+* UC6: User must be able to like and comment on another blog article
 
 > when you like the blog article it should appear into the users feed 
 
@@ -70,13 +72,13 @@ We have here Blog Article / Comments / Likes
 
 We have here Category / Topic / Posts 
 
-* User must be able to create discussion categories (e.g. MVC Frameworks)
+* UC7: User must be able to create discussion categories (e.g. MVC Frameworks)
 
-* User must be able to create topic as part of particular category
+* UC8: User must be able to create topic as part of particular category
 
-* Users must be able to publish posts in particular topic
+* UC9: Users must be able to publish posts in particular topic
 
-* User must be able to like posts
+* UC10: User must be able to like posts
 
 > when you like a post it should appear into the users feed 
 
