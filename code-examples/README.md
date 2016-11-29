@@ -1,3 +1,13 @@
+# Example Applications
+
+## Slack Bot Sample 
+
+See slack-bot-sample 
+
+## Node Events Demo
+
+Demonstrate app with RxJS, Node Event Emitter, and Socket.io
+
 # Code Examples
 
 Here are steps to use code examples.
