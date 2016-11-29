@@ -1,5 +1,7 @@
 # Example Applications
 
+Both are in Lecture 9 folder
+
 ## Slack Bot Sample 
 
 See slack-bot-sample 
